@@ -1,0 +1,36 @@
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.info,
+.imgContainer {
+  flex: 1;
+}
+
+.imgContainer {
+  height: 250px;
+  position: relative;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.info {
+  margin-bottom: 50px;
+}
+
+.desc {
+  margin-bottom: 40px;
+}
+
+.author {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+}
